@@ -1,16 +1,15 @@
-## Hi there 👋
+# Hi there 👋  
 
-<!--
-**SleepyGodzilla/SleepyGodzilla** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a developer from Germany 🇩🇪 who loves coding and gaming.
 
-Here are some ideas to get you started:
+## 💻 Tech Stack  
+- 🖥️ **Languages:** Java, Python, Kotlin, HTML, CSS, PHP  
+- 🗄️ **Database:** MySQL  
+- 🌱 Currently learning new ways to make awesome software!  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🎮 Fun Facts  
+- I'm a huge fan of video games 🎮  
+- My favorite ice cream? Spaghetti Ice Cream, of course! 🍝🍨  
+- Always looking for cool projects to work on  
+
+🚀 Let's connect and build something great together!  
