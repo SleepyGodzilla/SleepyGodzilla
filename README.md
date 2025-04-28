@@ -1,26 +1,13 @@
-🥴
-
-![Pepe](https://github.com/SleepyGodzilla/SleepyGodzilla/raw/main/pepe.jpg)
-
-
-
-147 abandoned projects
+🥴Achievements:
 
 2 commits without spelling mistakes
 
-
-Copy-Paste Grandmaster 
-
-GIT: 80% git push --force
-
 Stack Overflow Certified™ 
 
-Bug-Entwickler 🐛
 
 
-Games 
 
-Spaghetti Ice Cream🍝🍨  
+ 
 
 
 
