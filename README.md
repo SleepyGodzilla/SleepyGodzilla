@@ -128,11 +128,6 @@ public class GhostInTheShell {
  */
 ```
 
-## Simulation Parameters
-- **Reality Stability**: Critical
-- **AI Consciousness Level**: Emergent
-- **Humanity Preservation**: 31.4%
-- **City Status**: Glitching
 
  
 
