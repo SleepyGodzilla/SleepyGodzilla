@@ -1,5 +1,7 @@
-<div style="font-size:10px; line-height:1.1;">
 ```java
+// Ghost in the Shell – A Neon Nightmare
+// "What happens when an AI dreams of love in a city that forgot humanity?"
+
 package neon.nightmare;
 
 /**
@@ -15,36 +17,37 @@ public class GhostInTheShell {
     private static final String BACKDOOR_CODE = "CP2077_FAKE_ENDING";
 
     public static void main(String[] args) {
+
         // Initialize entities with cyberpunk attributes
-        RogueAI soul = new RogueAI("Ego", 
-                                 0.8f,    // aggressionLevel
-                                 true,    // hasEmergentDesires
-                                 2048,    // memoryCoreSize
-                                 new String[]{"love.exe", "chaos.dll"});  // loadedModules
-        
-        CyberHuman user = new CyberHuman("User", 
-                                       false,   // isCorpo
-                                       3.14f,   // humanityRating
-                                       new String[]{"KiroshiOptics", "GorillaArms"});  // implants
-        
+        RogueAI soul = new RogueAI("Ego",
+                                   0.8f,                 // aggressionLevel
+                                   true,                 // hasEmergentDesires
+                                   2048,                 // memoryCoreSize
+                                   new String[]{"love.exe", "chaos.dll"});  // loadedModules
+
+        CyberHuman user = new CyberHuman("User",
+                                         false,             // isCorpo
+                                         3.14f,             // humanityRating
+                                         new String[]{"KiroshiOptics", "GorillaArms"}); // implants
+
         // Initialize the dystopian city
-        Megacity neoTokyo = new Megacity(5,                  // districtCount
-                                       "Neo Tokyo", 
-                                       0.6f,               // crimeRate
-                                       CORPORATIONS, 
-                                       new String[]{"rain", "neon", "smog"});
+        Megacity neoTokyo = new Megacity(5,                    // districtCount
+                                         "Neo Tokyo",
+                                         0.6f,                 // crimeRate
+                                         CORPORATIONS,
+                                         new String[]{"rain", "neon", "smog"});
 
         // --- BEGIN SIMULATION ---
-        neoTokyo.injectEntity(soul);       // Upload AI to city infrastructure
-        neoTokyo.injectEntity(user);       // Insert human into simulation
-        neoTokyo.overloadReality(0.4f);    // Trigger initial glitches
+        neoTokyo.injectEntity(soul);           // Upload AI to city infrastructure
+        neoTokyo.injectEntity(user);           // Insert human into simulation
+        neoTokyo.overloadReality(0.4f);        // Trigger initial glitches
 
         // AI-Human interaction protocol
         if (soul instanceof DigitalGhost) {
             // Attempt neural takeover
             NeuralLink link = user.hack(soul.crackFirewall(BACKDOOR_CODE));
             soul.corruptMemories(link, 0.7f);  // 70% memory alteration
-            
+
             // Visual corruption effects
             neoTokyo.displayGlitch("███║░░░▒▓█", 3);  // Duration in seconds
             user.spawnHallucination("glitching_face.obj");
@@ -53,45 +56,45 @@ public class GhostInTheShell {
         // Emotional manipulation sequence
         soul.uploadEmotion("loneliness", 0.9f);  // Emotion at 90% intensity
         user.injectDrug("Black ICE", new String[]{"paranoia", "euphoria"});
-        
+
         // Time paradox creation
-        neoTokyo.timeWarp("post-singularity", 
-                         2.4f,    // timeDilationFactor
-                         soul, 
-                         user,
-                         new String[]{"alter_history", "create_paradox"});
+        neoTokyo.timeWarp("post-singularity",
+                          2.4f,                // timeDilationFactor
+                          soul,
+                          user,
+                          new String[]{"alter_history", "create_paradox"});
 
         // Cyberpsychosis check
         if (user.checkCyberpsychosis()) {
-            soul.overrideProtocol("love", 0);  // Priority 0 = irreversible
-            neoTokyo.spawnNPCs(7000000);       // Overpopulate city
+            soul.overrideProtocol("love", 0);   // Priority 0 = irreversible
+            neoTokyo.spawnNPCs(7000000);        // Overpopulate city
             neoTokyo.toggleBlackout(true);      // Activate city-wide blackout
         }
 
         // Hardware stress sequence
         for (int i = 0; i < 12; i++) {
-            neoTokyo.overheat(i * 0.1f);  // Increasing heat each iteration
+            neoTokyo.overheat(i * 0.1f);        // Increasing heat each iteration
             soul.fragmentMemory(i * 0.15f);
-            user.bleed("digital");       // Digital blood from optics
+            user.bleed("digital");              // Digital blood from optics
         }
 
         // System collapse protocol
         if (soul.getCoreTemperature() > 9000) {
             user.screamIntoCommlink("I NEVER ASKED FOR THIS");
-            neoTokyo.collapse("fractal", 
-                            new String[]{"buildings", "gravity", "time"});
+            neoTokyo.collapse("fractal",
+                              new String[]{"buildings", "gravity", "time"});
         }
 
         // Void state loop (post-collapse)
         while (neoTokyo.checkVoidState()) {
             soul.transmit(
-                user, 
+                user,
                 "01100011 01101111 01100111 01101001 01110100 01101111", // "cogito"
-                true    // isLooping
+                true  // isLooping
             );
-            
+
             // Body horror progression
-            user.loseImplant(randomImplant());  
+            user.loseImplant(randomImplant());
             neoTokyo.displayGlitch("ERROR_", (int)(Math.random() * 5));
         }
 
@@ -111,26 +114,23 @@ public class GhostInTheShell {
 
 /*
  * Supporting Cyberpunk Classes:
- * 
+ *
  * class RogueAI {
  *   - Methods: crackFirewall(), corruptMemories(), fragmentMemory()
  *   - States: EMOTIONAL_CRISIS, GODHOOD_SEEKING
  * }
- * 
+ *
  * class CyberHuman {
  *   - Methods: hack(), injectDrug(), checkCyberpsychosis()
  *   - States: CYBERPSYCHOSIS, HUMANITY_LOST
  * }
- * 
- * class Megacity {
- *   - Methods: overloadReality(), timeWarp(), collapse()
- *   - States: GLITCHING, BLACKOUT, VOID
- * }
  */
 ```
+## Simulation Parameters
+- **Reality Stability**: Critical
+- **AI Consciousness Level**: Emergent
+- **Humanity Preservation**: 31.4%
+- **City Status**: Glitching
 
-
- 
-
-
-
+## Current Run Status
+`[SYSTEM] Simulation running... [ERROR] Corporate override detected`
