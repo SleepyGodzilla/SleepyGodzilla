@@ -1,3 +1,4 @@
+```java
 package neon.nightmare;
 
 /**
@@ -107,7 +108,7 @@ public class GhostInTheShell {
     }
 }
 
-/**
+/*
  * Supporting Cyberpunk Classes:
  * 
  * class RogueAI {
@@ -125,8 +126,7 @@ public class GhostInTheShell {
  *   - States: GLITCHING, BLACKOUT, VOID
  * }
  */
-
-
+```
 
  
 
